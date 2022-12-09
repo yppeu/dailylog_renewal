@@ -1,0 +1,113 @@
+/* place */
+.map_wrap {
+    padding: 8rem 5rem 2rem;
+    text-align: center;
+}
+
+.map_section {
+    margin: 7rem 0 3rem 0;
+}
+
+.map_section input {
+    width: 30rem;
+    height: 1rem;
+    font-size: 0.8rem;
+    border: 1px solid #515151;
+    padding: 1rem;
+    border-radius: 2rem;
+    opacity: 30%;
+    margin-right: 0.3rem;
+}
+
+.search_btn {
+    width: 5rem;
+    height: 3rem;
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #35B8E1;
+    color: white;
+}
+
+.form-check input {
+    width: 1rem;
+}
+
+.map_section label {
+    font-size: 0.8rem;
+    opacity: 80%;
+    display: inline-block;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+/* 지도 모니터 */
+.map_box {
+    width: 70rem;
+    height: 35rem;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 2.25rem;
+    margin-bottom: 5rem;
+}
+
+.map_header {
+    height: 3rem;
+    position: relative;
+    width: 100%;
+    background: #e6e6e6;
+    border-radius: 2.25rem;
+}
+
+.map_header span {
+    position: absolute;
+    top: 1.2rem;
+    left: 4rem;
+}
+
+.map_nav {
+    position: relative;
+    opacity: 25%;
+    top: 1rem;
+    left: -28rem;
+}
+
+.map_nav i {
+    margin-right: 1rem;
+}
+
+.map_nav i:nth-child(2),
+i:nth-child(3) {
+    transform: scaleX(-1);
+}
+
+.map_header span:nth-child(1) {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-color: lightcoral;
+}
+
+.map_header span:nth-child(2) {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    transform: translateX(130%);
+    background-color: lightskyblue;
+}
+
+.map_header span:nth-child(3) {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    transform: translateX(300%);
+    background-color: lightgreen;
+}
+
+.map_img img {
+    width: 90%;
+    height: auto;
+    border-radius: 1rem;
+    margin-top: -5rem;
+}
