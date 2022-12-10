@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/header2.css">
-    <link rel="stylesheet" href="./assets/css/ranking.css">
+    <link rel="stylesheet" href="./assets/css/header3.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
     <title>DAILY LOG</title>
 
     <!-- 아이콘 -->
@@ -16,9 +17,6 @@
     <!-- 파비콘 -->
     <link rel="shortcut icon" href="./assets/img/house.svg" type="image/x-icon">
     <link rel="icon" href="./assets/img/house.svg" type="image/x-icon">
-
-    <!-- 스크립트 -->
-    <script src="./assets/js/rank.js" defer></script>
 </head>
 
 <body>
@@ -60,35 +58,46 @@
 
     <!-- 메인 시작 -->
     <main id="main">
-        <section class="ranking_wrap">
-            <div class="ranking_section">
-                <div class="ranking_text">
-                    <h1>나의 11월 기록 챌린지</h1>
-                    <h4>저번 달 나의 기록을 통하여 바쁜 일상을 되돌아보고 순위를 알아봐요 : )</h4>
-                </div>
-                <div class="ranking_category">
+        <section class="mypage_wrap">
+            <div class="mypage_section">
+                <div class="mypage_left">
                     <ul>
-                        <li><a href="#">기분</a></li>
-                        <li><a href="#">장소</a></li>
-                        <li><a href="#">사람</a></li>
-                        <li><a href="#">음식</a></li>
+                        <li>내계정</li>
+                        <li>내가 쓴 글</li>
+                        <li>좋아요</li>
+                        <li>로그아웃</li>
+                        <li>탈퇴</li>
                     </ul>
                 </div>
-                <div class="ranking_card">
+                <div class="profile_right">
                     <div>
-                        <h2>1위</h2>
-                        <h4>맑음</h4>
-                        <p>74.32%</p>
+                        <label for="email">이메일</label>
+                        <input type="text" id="email">
                     </div>
                     <div>
-                        <h2>2위</h2>
-                        <h4>흐림</h4>
-                        <p>34.32%</p>
+                        <label for="name">이름</label>
+                        <input type="text" id="name">
                     </div>
                     <div>
-                        <h2>3위</h2>
-                        <h4>눈</h4>
-                        <p>14.32%</p>
+                        <label for="nickname">닉네임</label>
+                        <input type="text" id="nickname">
+                    </div>
+                    <div>
+                        <label for="password">비밀번호</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div>
+                        <label for="password">비밀번호 확인</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div>
+                        <label for="phone">전화번호</label>
+                        <input type="number" id="phone">
+                    </div>
+                    <div class="profile_submit">
+                        <button type="submit">
+                            회원정보 수정
+                        </button>
                     </div>
                 </div>
             </div>
