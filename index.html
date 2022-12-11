@@ -19,6 +19,11 @@
 
     <!-- 스크립트 -->
     <script src="./assets/js/index.js" defer></script>
+
+    <!-- 스와이퍼 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 </head>
 
 <body>
@@ -70,82 +75,109 @@
                         </span>
                     </div>
                     <!-- place -->
-                    <div class="map_wrap">
-                        <div class="map_text">
-                            <p>new</p>
-                            <h3>이 장소,</h3>
-                            <h3>기억나나요?</h3>
-                        </div>
-                        <div class="map_box">
-                            <div class="map_header">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                            <div class="map_section">
-                                <div class="map_img">
-                                    <img src="./assets/img/maps.JPG" alt="지도">
+                    <!-- swiper슬라이더 메인컨테이너 -->
+                    <div class="swiper-container">
+                        <!-- 보여지는 영역 -->
+                        <div class="swiper-wrapper">
+                            <!-- 슬라이드 영역 -->
+                            <div class="map_wrap">
+                                <div class="swiper-slide">
+                                    <div class="map_text">
+                                        <p>new</p>
+                                        <h3>이 장소,</h3>
+                                        <h3>기억나나요?</h3>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <article class="article">
-                        <!-- menu -->
-                        <div class="food_wrap">
-                            <div class="food_text">
-                                <p>new</p>
-                                <h3>오늘은</h3>
-                                <h3>이 메뉴 어때요?</h3>
-                            </div>
-                            <div class="food_img">
-                                <img src="./assets/img/menu/american/steak.png" alt="한식">
-                            </div>
-                        </div>
-                        <!-- phone -->
-                        <div class="phone_wrap">
-                            <div class="phone_text">
-                                <p>new</p>
-                                <h3>오랜만에</h3>
-                                <h3>연락해봐요 : )</h3>
-                            </div>
-                            <!-- 아이폰 목업 시작 -->
-                            <div class="mockup-container">
-                                <div class="mockup">
-                                    <div class="mobile-mockup">
-                                        <div class="camera">
+                                <div class="swiper-slide">
+                                    <div class="map_box">
+                                        <div class="map_header">
+                                            <span></span>
+                                            <span></span>
                                             <span></span>
                                         </div>
-                                        <div class="home-btn">
-                                            <span></span>
-                                        </div>
-                                        <div class="power">
-                                            <span></span>
-                                        </div>
-                                        <!-- Content Start -->
-                                        <div class="phone_name">
-                                            <div class="phone_main">
-                                                <div>
-                                                    <img src="./assets/img/call.png" alt="전화 아이콘">
-                                                </div>
-                                                <div>
-                                                    <h5>김철수</h5>
-                                                    <h6>24 days ago</h6>
-                                                </div>
+                                        <div class="map_section">
+                                            <div class="map_img">
+                                                <img src="./assets/img/maps.JPG" alt="지도">
                                             </div>
                                         </div>
-                                        <!-- Content End -->
                                     </div>
                                 </div>
                             </div>
-                            <!-- 아이폰 목업 끝 -->
+
+                            <article class="article">
+                                <!-- menu -->
+                                <div class="food_wrap">
+                                    <div class="swiper-slide"></div>
+                                    <div class="food_text">
+                                        <p>new</p>
+                                        <h3>오늘은</h3>
+                                        <h3>이 메뉴 어때요?</h3>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="food_img">
+                                        <img src="./assets/img/menu/american/steak.png" alt="한식">
+                                    </div>
+                                </div>
+                                <!-- phone -->
+                                <div class="phone_wrap">
+                                    <div class="swiper-slide">
+                                        <div class="phone_text">
+                                            <p>new</p>
+                                            <h3>오랜만에</h3>
+                                            <h3>연락해봐요 : )</h3>
+                                        </div>
+                                    </div>
+                                    <!-- 아이폰 목업 시작 -->
+                                    <div class="swiper-slide">
+                                        <div class="mockup-container">
+                                            <div class="mockup">
+                                                <div class="mobile-mockup">
+                                                    <div class="camera">
+                                                        <span></span>
+                                                    </div>
+                                                    <div class="home-btn">
+                                                        <span></span>
+                                                    </div>
+                                                    <div class="power">
+                                                        <span></span>
+                                                    </div>
+                                                    <!-- Content Start -->
+                                                    <div class="phone_name">
+                                                        <div class="phone_main">
+                                                            <div>
+                                                                <img src="./assets/img/call.png" alt="전화 아이콘">
+                                                            </div>
+                                                            <div>
+                                                                <h5>김철수</h5>
+                                                                <h6>24 days ago</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Content End -->
+                                                </div>
+                                            </div>
+                                            <!-- 아이폰 목업 끝 -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- 명언 시작 -->
+                            <div class="swiper-slide">
+                                <div class="saying_warp">
+                                    <div class="saying_text">
+                                        <p>눈동자로 상대방의 마음을 읽어라. 눈은 마음의 창이다.</p>
+                                        <p>- 그라시아 -</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </article>
-                    <!-- 명언 시작 -->
-                    <div class="saying_warp">
-                        <div class="saying_text">
-                            <p>눈동자로 상대방의 마음을 읽어라. 눈은 마음의 창이다.</p>
-                            <p>- 그라시아 -</p>
-                        </div>
+                        <!-- 페이징 버튼 처리 -->
+                        <!-- <div class="swiper-pagination"></div> -->
+
+                        <!-- 방향 버튼 상황에 따라 추가 삭제가능 -->
+                        <!-- <div class="swiper-button-prev"></div>
+                                                            <div class="swiper-button-next"></div> -->
                     </div>
                 </section>
             </div>

@@ -22,7 +22,6 @@
     color: #515151;
     opacity: 60%;
     margin-top: 0.3rem;
-
 }
 
 .ranking_category ul {
@@ -40,12 +39,6 @@
     font-size: 1rem;
     transition: all 0.2s ease-in-out;
     margin-right: 0.8rem;
-}
-
-.lanknav.active {
-    background: #0a87ad;
-    color: #fff;
-    border: 0.04rem solid #fff;
 }
 
 .ranking_category ul li:hover {
@@ -76,7 +69,7 @@
 /* cart 애니메이션 */
 .ranking_card div:nth-child(1) {
     animation: flash1 3s infinite;
-    background: #FF9100;
+    background: #FF7A85;
 }
 
 @keyframes flash1 {
@@ -96,7 +89,7 @@
 
 .ranking_card div:nth-child(2) {
     animation: flash2 3s infinite;
-    background: #0078FF;
+    background: #008C8C;
 }
 
 @keyframes flash2 {
@@ -116,7 +109,7 @@
 
 .ranking_card div:nth-child(3) {
     animation: flash3 3s infinite;
-    background: #7B68EE;
+    background: #6495ED;
 }
 
 @keyframes flash3 {
@@ -154,8 +147,8 @@
 }
 
 .ranking_card div h4 {
-    font-size: 2.3rem;
-    font-weight: 400;
+    font-size: 1.3rem;
+    font-weight: 300;
     position: absolute;
     top: 8.1rem;
     left: 50%;
