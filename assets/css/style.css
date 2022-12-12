@@ -22,11 +22,17 @@
     object-fit: cover;
 }
 
-/* place */
+.section {
+    margin: auto;
+}
+
+/* 장소 */
 .map_wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #FFE4E1;
-    height: 38rem;
-    padding: 8rem 5rem 2rem;
+    height: 45rem;
 }
 
 .map_text p {
@@ -46,10 +52,9 @@
     margin-bottom: 2rem;
 }
 
-/* 지도 모니터 */
 .map_box {
-    width: 40rem;
-    height: 23rem;
+    width: 100%;
+    height: 35rem;
     margin: 0 auto;
     background: #fff;
     border-radius: 2.25rem;
@@ -99,50 +104,42 @@
     border-radius: 1rem;
 }
 
-.article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-/* food */
+/* 음식 */
 .food_wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #D5C2EE;
-    width: 60%;
-    height: 38rem;
-    padding: 8rem 0;
+    height: 45rem;
 }
 
-.food_wrap p {
+.food_text p {
     font-size: 1rem;
     opacity: 50%;
     color: #e30f3d;
 }
 
-.food_wrap h3 {
+.food_text h3 {
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: -0.1rem;
 }
 
-.food_wrap h3:nth-child(3) {
+.food_text h3:nth-child(3) {
     color: #e30f3d;
 }
 
-.food_img {
-    margin: auto;
-}
-
 .food_img img {
-    width: 99%;
+    width: 100%;
 }
 
-/* phone */
+/* 연락 */
 .phone_wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(189, 244, 189);
-    width: 40%;
-    height: 38rem;
-    padding: 8rem 0;
+    height: 45rem;
 }
 
 .phone_wrap p {
@@ -295,39 +292,21 @@
 
 /* 명언 */
 .saying_warp {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #FFE4E1;
-    height: 12rem;
+    height: 45rem;
     font-size: 0.9rem;
     font-weight: 400;
 }
 
 .saying_text {
-    width: 80%;
     margin: 0 auto;
-    padding: 5rem 1rem;
 }
 
-.saying_text p:nth-child(1) {
-    padding-bottom: 1rem;
-}
-
-/* 스와이퍼 */
-
-
-
-
-
-@media screen and (max-width: 768px) {
-
-    .swiper-container::after,
-    .swiper-container::before {
-        display: none;
-    }
-
-    .swiper-button-next,
-    .swiper-button-prev {
-        display: none;
-    }
-}
 
 @media(min-width:768px) and (max-width:1024px) {}
+
+@media(min-width:767px) and (max-width:320px) {}
